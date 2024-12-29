@@ -1,11 +1,12 @@
-import java.time.LocalDate;
-import java.util.Arrays;
-import java.util.Date;
 
 public class Main {
     public static void main(String[] args)
     {
-        AbstractKeyword ak = new AbstractKeyword();
+        MultiThreads mt = new MultiThreads();
+        mt.multiThreads();
+        // UserInput ui = new  UserInput();
+        // ui.userInput();
+        // AbstractKeyword ak = new AbstractKeyword();
         // ProblemSolving ps = new ProblemSolving();
         // System.out.println(ps.noBoringZeros(15000000));
         // System.out.println(ps.call(0, 1, 0));
